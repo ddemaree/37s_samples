@@ -1,0 +1,5 @@
+source :gemcutter
+
+gem 'rake'
+gem 'activesupport', '2.3.10'
+gem 'shoulda',       '~>2.10.0'

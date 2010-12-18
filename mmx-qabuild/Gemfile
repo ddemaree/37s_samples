@@ -1,0 +1,12 @@
+source "http://rubygems.org"
+source "http://gems.mmx.local"
+
+gem "mmx-qabuild", :path => File.expand_path("..", __FILE__)
+
+# Development dependencies - other dependencies should be named in the gemspec for the builder itself
+gem "rake",         "~> 0.8"
+gem "mmx-gemtools", ">= 0.1.0"
+
+group :test do
+  gem "rspec", "~> 2.0"
+end
