@@ -1,5 +1,0 @@
-#!/usr/bin/env ruby
-require 'mmx/builder'
-require 'mmx/builder/cli'
-
-MMX::Builder::CLI.new(ARGV).run!
