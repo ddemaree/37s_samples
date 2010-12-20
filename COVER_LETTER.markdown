@@ -39,10 +39,22 @@ I've been leading a push towards more modernization and standardization--toward 
 
 MySQL is our main data storage tool, paired with memcached (for caching and sessions) and a multi-core Solr setup (for search, with each product having its own Solr core/index). We've also just started using CouchDB as a feed staging area; third-party data gets imported to Couch, normalized by a processing daemon, then output to MySQL for use by the public-facing apps. On the side I've also experimented with MongoDB and Redis.
 
-In my spare time I'm working on an open-source voting & governance tool for the jQuery Core Team, with Yehuda Katz and a great group of volunteers. The project is Rails 3 with all the usual trimmings: Devise, RSpec 2, Cucumber, Factory Girl, Haml & Sass, Resque. My contributions so far have been implementing the first version of the member management admin, setting up e-mail notifications to the membership whenever a motion is created or its state changed, and hanging out in the Campfire room and lending ActiveRecord help to some of the other members.
-
-<http://github.com/wycats/jquery-governance>
+In my spare time I'm working on an open-source voting & governance tool for the jQuery Core Team (<http://github.com/wycats/jquery-governance>), with Yehuda Katz and a great group of volunteers. The project is Rails 3 with all the usual trimmings: Devise, RSpec 2, Cucumber, Factory Girl, Haml & Sass, Resque. My contributions so far have been implementing the first version of the member management admin, setting up e-mail notifications to the membership whenever a motion is created or its state changed, and hanging out in the Campfire room and lending ActiveRecord help to some of the other members.
 
 Finally, outside work, I'm an amateur photographer with an active Flickr stream (<http://flickr.com/demaree>) and an aspiring mixologist. (One of my OmniFocus items right now is "learn how to make bitters.") The stack of books on my desk includes a number of web & programming titles, like Stoyan Stefanov's _JavaScript Patterns_ and Khoi Vinh's new book about grid layouts. It also includes some books about business (_All The Devils Are Here_ is my idea of a trashy page-turner), history and philosophy. Every once in a while a novel makes it into the stack, but only when it really grabs me.
 
-One more data point: I'm slightly addicted to human input devices, a broad category that (for me) includes everything from pens to touchscreens, and I'm constantly trying new ones. Right now on my desk you'll find both a Magic Trackpad _and_ Magic Mouse (the former gets more use than the latter), as well as a Razer DeathAdder gaming mouse, the smaller, now-discontinued wired Apple Keyboard, a wide variety of pens (including the hugely disappointing Sharpie Liquid Pencil) and a leather folio holding a pad of thick, smooth yellow paper.
+One more data point that you won't learn from my resumé, code or website: I'm slightly addicted to human input devices. This is a broad category that (for me) includes everything from pens to touchscreens, and I'm constantly trying new ones. Right now on my desk you'll find both a Magic Trackpad _and_ Magic Mouse (the former gets more use than the latter), as well as a Razer DeathAdder gaming mouse, the smaller, now-discontinued wired Apple Keyboard, a wide variety of pens (including the hugely disappointing Sharpie Liquid Pencil) and a leather folio holding a pad of thick, smooth yellow paper.
+
+The job posting asked for some paragraphs about some code I was particularly proud of, so I created a GitHub project called `37s_samples`. Most of what I have to say about those examples is in the README, and you can drill down into the code to get a better sense of my style and (such as it is) expertise. The samples are in Ruby and JavaScript, and where possible I've included working tests.
+
+<http://github.com/ddemaree/37s_samples>
+
+Other than that, everything written on [the website I made for the UI designer position](http://does37signalsneedanotherdavid.us/) still stands. I love making software. I love helping my customers (and my customers' customers) get things done more easily. 37signals gets it more than almost any other company I can think of, and I would be honored to have the chance to talk with you about joining the team and building some great products together.
+
+Best regards, and thanks,
+
+**David Demaree**         
+<ddemaree@gmail.com>    
+312 268-2027
+
+<http://does37signalsneedanotherdavid.us/>   

@@ -1,3 +1,11 @@
+# About these examples #
+
+You asked for examples of code I was proud of; these three were the first that came to mind. Each one illustrates something a little different, though there are unifying themes. In each project here, I've tried reach outside my limitations, learn something new, and find a structure or abstraction for solving the problem at hand that feels natural, and right.
+
+The first example is JavaScript, the other two are Ruby.
+
+----
+
 ### [Bjørn](https://github.com/ddemaree/37s_samples/tree/master/bjorn) ###
 
 Bjørn is a &#8220;routing DSL for JavaScript&#8221; I wrote last year to prove out an idea for using the browser&#8217;s location hash to pass parameters to JS actions, mapping URI-like hashes to Sinatra-like block handlers. The DSL syntax is similar to the Rails <code>routes.rb</code> file, including the ability to define several routes using nested blocks. The implementation is basically a port of Sinatra&#8217;s URI router to JavaScript. While routing requests is the original intended use, you could also use Bjørn to invoke any kind of custom event, which could be useful in situations where you&#8217;re using the library without another, bigger framework like jQuery or Prototype.
@@ -6,6 +14,7 @@ As I&#8217;ve yet to release an app that uses Bjørn it&#8217;s fair to say it&#
 
 The latest Bjørn source is included in the sample code repo listed above, and you can also view the official GitHub project at <http://github.com/ddemaree/bjorn>.
 
+----
 
 ### [Ticktock](https://github.com/ddemaree/37s_samples/tree/master/ticktock-parser) ###
 
@@ -15,6 +24,7 @@ The message parser, which is included in the sample code as `ticktock-parser`, w
 
 Ticktock's been dormant long enough, and it's not doing me much good as a private project, so I've just [open sourced the project](http://github.com/ddemaree/ticktock).
 
+----
 
 ### [ManageMyCommunity design patterns](https://github.com/ddemaree/37s_samples/tree/master/managemycommunity) ###
 
