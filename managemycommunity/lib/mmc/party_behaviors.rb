@@ -5,6 +5,11 @@ module MMC::PartyBehaviors
       has_one :party, :as => :party
       after_save :update_party
       after_destroy :destroy_party
+      
+      # These associations date back to before Party was added to the project
+      [:content_items, :events, :posts, :discussions, :attachments, :comments, :pages].each do |association_name|
+        has_many association_name, :as => :owner
+      end
     end
   end
   
@@ -20,6 +25,10 @@ module MMC::PartyBehaviors
 
   def destroy_party
     self.party.destroy
+  end
+  
+  def to_s(variant=nil)
+    name
   end
   
 end
