@@ -10,9 +10,7 @@ I believe that if you're going to do something it's important to try to do it we
 
 Rails found me about five years ago when a friend/co-worker saw me writing some PHP code on a break, happened to have heard about this great new Ruby-based web thing from his friend Sam Stephenson (I think you may know him ;), and suggested I try it out. I tried it out, I loved it, and I've worked almost exclusively in Ruby since 2006.
 
-I don't remember what Rails version my first production app used, but based on the timing (launch was spring 2006) it was probably 1.0 or 1.1. It's still running, and still looks more or less the same as it did when I deployed it:
-
-<http://businesspov.com/>
+I don't remember what Rails version my first production app used, but based on the timing (launch was spring 2006) it was probably 1.0 or 1.1. It's still running, and still looks more or less the same as it did when I deployed it: <http://businesspov.com/>
 
 At the first RailsConf in 2006, I gave a talk on "web 2.0" concepts in user experience. It wasn't _at all_ technical, except in the sense of trying to get people to move beyond "tags" and "feeds" in their domain models and frame features in a context their users will understand. Though I didn't know it at the time, my talk was about domain modeling.
 
@@ -24,9 +22,7 @@ Here are some comments about my session from folks who were there:
 
 During three years of freelance consulting I worked on about a dozen projects, most of them either internal tools that aren't publicly accessible, or sites that have since gone out of production. But a few are still up.
 
-The most notable one was T-26, the digital type store founded by 37signals co-founder Carlos Segura, which I ported from PHP to Rails 1.2 in winter 2007, and worked on until I quit full-time freelancing in spring 2009. Working on T-26 taught me a lot about architecting a large Rails system, and even now is probably my favorite app I've ever worked on.
-
-<http://www.t26.com/>
+The most notable one was T-26 (<http://www.t26.com/>), the digital type store founded by 37signals co-founder Carlos Segura, which I ported from PHP to Rails 1.2 in winter 2007, and worked on until I quit full-time freelancing in spring 2009. Working on T-26 taught me a lot about architecting a large Rails system, and even now is probably my favorite app I've ever worked on.
 
 My current project is Metromix.com, a network of local entertainment sites owned by Gannett and the Tribune Company. Metromix is divided into two platforms: "affiliate" (sites managed by producers in each city) and "express" (sites based on data from a third-party provider such as Localeze). Here are links to one of each:
 
